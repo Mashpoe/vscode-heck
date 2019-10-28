@@ -1,1 +1,100 @@
-
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Heck",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#functions"
+		},
+		{
+			"include": "#variables"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.heck",
+					"match": "\\b(if|while|for|return|class|function|let|true|false|int|string|bool|float|char|import|export)\\b"
+				}
+			]
+		},
+		"variables": {
+			"patterns": [
+				{
+					"name": "variable.heck",
+					"match": "\\b([_a-zA-Z][_a-zA-Z0-9]*)\\b"
+				}
+			]
+		},
+		"functions": {
+			"patterns": [
+				{
+					"name": "entity.name.function",
+					"match": "[_a-zA-Z][_a-zA-Z0-9]*(?=(\\s*\\())"
+				}
+			]
+		},
+		"strings": {
+			"patterns":[
+				{
+					"name": "string.quoted.double.heck",
+					"begin": "\"",
+					"end": "\"",
+					"patterns": [
+						{
+							"name": "constant.character.escape.heck",
+							"match": "\\\\."
+						}
+					]
+				},
+				{
+					"name": "string.quoted.single.heck",
+					"begin": "'",
+					"end": "'",
+					"patterns": [
+						{
+							"name": "constant.character.escape.heck",
+							"match": "\\\\."
+						}
+					]
+				}
+			]
+		},
+		"numbers": {
+			"patterns": [
+				{
+					"name": "constant.numeric.heck",
+					"match": "\\-?(\\d+(\\.\\d*)?|(\\d*\\.)?\\d+)"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.heck",
+					"begin": "//",
+					"end": "\n"
+				},
+				{
+					"name": "comment.block.heck",
+					"begin": "\\/\\*",
+					"end": "\\*\\/"
+				}
+			]
+		}
+		
+	},
+	"scopeName": "source.heck"
+}
