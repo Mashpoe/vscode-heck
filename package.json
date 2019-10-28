@@ -2,8 +2,9 @@
     "name": "heck",
     "displayName": "heck",
     "description": "Syntax highlighting for the Heck programming language.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "Mashpoe",
+    "icon": "images/icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/Mashpoe/vscode-heck.git"

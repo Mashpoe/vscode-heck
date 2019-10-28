@@ -13,7 +13,3 @@ The proper syntax highlighting will be applied when creating or opening a file w
 ### 0.0.1
 
 Initial release of Heck for VSCode, basic syntax highlighting.
-
-### 0.0.2
-
-Fix readme
