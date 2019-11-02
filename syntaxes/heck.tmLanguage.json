@@ -46,27 +46,33 @@
 				}
 			]
 		},
+		"escapes": {
+			"patterns": [
+				{
+					"name": "constant.character.escape.heck",
+					"match": "\\\\[\\s\\S]"
+				}
+			]
+		},
 		"strings": {
 			"patterns":[
 				{
 					"name": "string.quoted.double.heck",
 					"begin": "\"",
-					"end": "\"",
+					"end": "(\"|\\n)",
 					"patterns": [
 						{
-							"name": "constant.character.escape.heck",
-							"match": "\\\\."
+							"include": "#escapes"
 						}
 					]
 				},
 				{
 					"name": "string.quoted.single.heck",
 					"begin": "'",
-					"end": "'",
+					"end": "('|\\n)",
 					"patterns": [
 						{
-							"name": "constant.character.escape.heck",
-							"match": "\\\\."
+							"include": "#escapes"
 						}
 					]
 				}

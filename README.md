@@ -10,6 +10,6 @@ The proper syntax highlighting will be applied when creating or opening a file w
 
 ## Release Notes
 
-### 0.0.1
+### 0.0.4
 
-Initial release of Heck for VSCode, basic syntax highlighting.
+Support for escaped newlines for strings
