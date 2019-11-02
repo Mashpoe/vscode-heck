@@ -12,4 +12,4 @@ The proper syntax highlighting will be applied when creating or opening a file w
 
 ### 0.0.4
 
-Support for escaped newlines for strings
+Support for escaped newlines in strings

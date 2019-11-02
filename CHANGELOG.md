@@ -2,7 +2,7 @@
 
 ### 0.0.4
 
-Support for escaped newlines for strings
+Support for escaped newlines in strings
 
 ### 0.0.3
 
