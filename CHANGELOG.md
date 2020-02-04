@@ -1,5 +1,9 @@
 # Change Log
 
+### 0.0.6
+
+Separate line continuations from regular escapes
+
 ### 0.0.5
 
 Add const and operator keywords and support for escaped newlines in single line comments

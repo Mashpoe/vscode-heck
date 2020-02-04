@@ -3,6 +3,9 @@
 	"name": "Heck",
 	"patterns": [
 		{
+			"include": "#line-continuations"
+		},
+		{
 			"include": "#comments"
 		},
 		{
@@ -50,7 +53,15 @@
 			"patterns": [
 				{
 					"name": "constant.character.escape.heck",
-					"match": "\\\\[\\s\\S]"
+					"match": "\\\\"
+				}
+			]
+		},
+		"line-continuations": {
+			"patterns": [
+				{
+					"name": "constant.character.escape.line-continuation.heck",
+					"match": "\\\\\\n"
 				}
 			]
 		},
@@ -94,7 +105,7 @@
 					"end": "\n",
 					"patterns": [
 						{
-							"include": "#escapes"
+							"include": "#line-continuations"
 						}
 					]
 				},
