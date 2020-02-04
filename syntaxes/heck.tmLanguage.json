@@ -26,7 +26,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.heck",
-					"match": "\\b(if|while|for|return|class|function|let|true|false|int|string|bool|float|char|import|export)\\b"
+					"match": "\\b(if|while|for|return|class|function|let|true|false|int|string|bool|float|char|import|export|const|operator)\\b"
 				}
 			]
 		},
@@ -91,7 +91,12 @@
 				{
 					"name": "comment.line.heck",
 					"begin": "//",
-					"end": "\n"
+					"end": "\n",
+					"patterns": [
+						{
+							"include": "#escapes"
+						}
+					]
 				},
 				{
 					"name": "comment.block.heck",

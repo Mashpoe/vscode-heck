@@ -10,6 +10,6 @@ The proper syntax highlighting will be applied when creating or opening a file w
 
 ## Release Notes
 
-### 0.0.4
+### 0.0.5
 
-Support for escaped newlines in strings
+Add const and operator keywords and support for escaped newlines in single line comments
