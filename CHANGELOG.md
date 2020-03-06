@@ -1,5 +1,9 @@
 # Change Log
 
+### 0.0.7
+
+add more keywords
+
 ### 0.0.6
 
 Separate line continuations from regular escapes
