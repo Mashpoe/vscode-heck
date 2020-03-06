@@ -1,5 +1,9 @@
 # Change Log
 
+### 0.0.8
+
+add support for nested block comments
+
 ### 0.0.7
 
 add more keywords

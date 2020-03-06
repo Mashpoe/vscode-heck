@@ -10,6 +10,6 @@ The proper syntax highlighting will be applied when creating or opening a file w
 
 ## Release Notes
 
-### 0.0.7
+### 0.0.8
 
-Add support for more keywords
+add support for nested block comments

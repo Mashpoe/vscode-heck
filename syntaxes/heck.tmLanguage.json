@@ -29,7 +29,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.heck",
-					"match": "\\b(if|while|for|return|class|namespace|function|let|true|false|int|string|bool|float|char|import|export|const|friend|public|private|operator)\\b"
+					"match": "\\b(if|while|for|return|class|namespace|func|let|true|false|int|string|bool|float|char|import|export|const|friend|public|private|operator)\\b"
 				}
 			]
 		},
@@ -97,7 +97,7 @@
 				}
 			]
 		},
-		"comments": {
+		"line-comments": {
 			"patterns": [
 				{
 					"name": "comment.line.heck",
@@ -108,11 +108,26 @@
 							"include": "#line-continuations"
 						}
 					]
+				}
+			]
+		},
+		"block-comments": {
+			"name": "comment.block.heck",
+			"begin": "\\/\\*",
+			"end": "\\*\\/",
+			"patterns": [
+				{
+					"include": "#block-comments"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"include": "#block-comments"
 				},
 				{
-					"name": "comment.block.heck",
-					"begin": "\\/\\*",
-					"end": "\\*\\/"
+					"include": "#line-comments"
 				}
 			]
 		}
