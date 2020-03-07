@@ -1,5 +1,9 @@
 # Change Log
 
+### 0.0.9
+
+update readme, capitalize display name
+
 ### 0.0.8
 
 add support for nested block comments

@@ -1,6 +1,6 @@
 # Heck README
 
-This extension provides basic support for editing with the Heck programming language.
+This extension provides basic support for editing with the [Heck programming language](https://heck-lang.github.io).
 
 ## Features
 
