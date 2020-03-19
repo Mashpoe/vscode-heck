@@ -1,5 +1,9 @@
 # Change Log
 
+### 0.0.10
+
+update logo and syntax in demo gif
+
 ### 0.0.9
 
 update readme, capitalize display name
