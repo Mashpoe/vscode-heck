@@ -2,7 +2,7 @@
     "name": "heck",
     "displayName": "Heck",
     "description": "Syntax highlighting for the Heck programming language.",
-    "version": "0.0.10",
+    "version": "0.1.0",
     "publisher": "Mashpoe",
     "icon": "images/icon.png",
     "repository": {
