@@ -10,6 +10,6 @@ The proper syntax highlighting will be applied when creating or opening a file w
 
 ## Release Notes
 
-### 0.0.8
+### 0.1.0
 
-add support for nested block comments
+add 'global' and 'this' keywords

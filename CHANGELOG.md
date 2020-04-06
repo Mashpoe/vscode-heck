@@ -1,5 +1,9 @@
 # Change Log
 
+### 0.1.0
+
+add 'global' and 'this' keywords
+
 ### 0.0.10
 
 update logo and syntax in demo gif

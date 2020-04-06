@@ -29,7 +29,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.heck",
-					"match": "\\b(if|while|for|return|class|namespace|func|let|true|false|int|string|bool|float|char|import|export|const|friend|public|private|operator)\\b"
+					"match": "\\b(if|while|for|return|class|namespace|func|let|true|false|int|string|bool|float|char|import|export|const|friend|public|private|operator|global|this)\\b"
 				}
 			]
 		},
